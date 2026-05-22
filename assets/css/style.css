@@ -1,0 +1,379 @@
+/* ========================= */
+/* VARIABLES CSS */
+/* ========================= */
+
+:root{
+
+    --color-primary-blue: #0b1f3a;
+    --color-secondary-orange: #ff8c00;
+    --color-white: #ffffff;
+
+    --color-background-light: #f5f7fa;
+    --color-text-dark: #1e293b;
+
+    --main-border-radius: 14px;
+
+    --main-transition-speed: 0.3s;
+}
+
+/* ========================= */
+/* RESET CSS */
+/* ========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    font-family: Arial, sans-serif;
+
+    background: var(--color-background-light);
+
+    color: var(--color-text-dark);
+}
+
+/* ========================= */
+/* HEADER */
+/* ========================= */
+
+.header-main-static{
+
+    position: sticky;
+    top: 0;
+
+    z-index: 999;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 6%;
+
+    background: var(--color-primary-blue);
+}
+
+.header-logo-zone{
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.company-main-logo{
+
+    width: 60px;
+    height: 60px;
+
+    object-fit: contain;
+
+    background: white;
+
+    border-radius: 12px;
+
+    padding: 5px;
+}
+
+.company-brand-text h1{
+    color: white;
+    font-size: 20px;
+}
+
+.company-brand-text p{
+    color: #dbeafe;
+    font-size: 13px;
+}
+
+/* ========================= */
+/* NAVIGATION */
+/* ========================= */
+
+.navigation-links-list{
+
+    display: flex;
+    list-style: none;
+
+    gap: 25px;
+}
+
+.navigation-links-list a{
+
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.navigation-links-list a:hover{
+    color: var(--color-secondary-orange);
+}
+
+/* ========================= */
+/* BUTTONS */
+/* ========================= */
+
+.btn-contact-whatsapp,
+.btn-primary-main,
+.btn-secondary-main,
+.btn-service-details,
+.btn-cta-whatsapp{
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.btn-contact-whatsapp,
+.btn-primary-main,
+.btn-cta-whatsapp{
+
+    background: var(--color-secondary-orange);
+
+    color: white;
+}
+
+.btn-secondary-main,
+.btn-service-details{
+
+    background: var(--color-primary-blue);
+
+    color: white;
+}
+
+.btn-contact-whatsapp{
+    padding: 12px 20px;
+}
+
+.btn-primary-main,
+.btn-secondary-main{
+    padding: 14px 24px;
+}
+
+.btn-service-details{
+    padding: 12px 18px;
+}
+
+.btn-cta-whatsapp{
+    padding: 15px 25px;
+}
+
+.btn-contact-whatsapp:hover,
+.btn-primary-main:hover,
+.btn-secondary-main:hover,
+.btn-service-details:hover,
+.btn-cta-whatsapp:hover{
+
+    transform: translateY(-3px);
+}
+
+/* ========================= */
+/* HERO SECTION */
+/* ========================= */
+
+.section-hero-main{
+
+    min-height: 90vh;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    align-items: center;
+
+    gap: 50px;
+
+    padding: 80px 6%;
+
+    background: white;
+}
+
+.hero-main-title{
+
+    font-size: 52px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+.hero-main-description{
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+}
+
+.hero-buttons-group{
+
+    display: flex;
+
+    gap: 20px;
+}
+
+.hero-main-image{
+    width: 100%;
+}
+
+/* ========================= */
+/* SERVICES */
+/* ========================= */
+
+.section-services-dashboard{
+    padding: 80px 6%;
+}
+
+.section-title-center{
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.services-grid-layout{
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+
+    gap: 25px;
+}
+
+.service-card-canva,
+.service-card-windows,
+.service-card-office,
+.service-card-antivirus{
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: var(--main-border-radius);
+
+    transition: 0.3s;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.service-card-canva:hover,
+.service-card-windows:hover,
+.service-card-office:hover,
+.service-card-antivirus:hover{
+
+    transform: translateY(-8px);
+}
+
+.service-price-tag{
+
+    display: inline-block;
+
+    margin: 15px 0;
+
+    color: var(--color-secondary-orange);
+
+    font-weight: bold;
+}
+
+/* ========================= */
+/* CTA */
+/* ========================= */
+
+.section-whatsapp-cta{
+
+    background: var(--color-primary-blue);
+
+    padding: 80px 6%;
+
+    text-align: center;
+
+    color: white;
+}
+
+.section-whatsapp-cta p{
+    margin: 20px 0;
+}
+
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+.footer-main-section{
+
+    background: #061120;
+
+    color: white;
+
+    padding: 50px 6%;
+}
+
+.footer-social-links{
+
+    margin-top: 20px;
+
+    display: flex;
+
+    gap: 20px;
+}
+
+.footer-social-links a{
+
+    color: var(--color-secondary-orange);
+
+    text-decoration: none;
+}
+
+/* ========================= */
+/* MOBILE */
+/* ========================= */
+
+.mobile-menu-toggle-btn{
+
+    display: none;
+
+    background: none;
+    border: none;
+
+    color: white;
+
+    font-size: 30px;
+}
+
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
+
+@media screen and (max-width: 900px){
+
+    .section-hero-main{
+        grid-template-columns: 1fr;
+    }
+
+    .navigation-main-menu,
+    .btn-contact-whatsapp{
+        display: none;
+    }
+
+    .mobile-menu-toggle-btn{
+        display: block;
+    }
+
+    .hero-main-title{
+        font-size: 36px;
+    }
+
+    .hero-buttons-group{
+        flex-direction: column;
+    }
+
+}

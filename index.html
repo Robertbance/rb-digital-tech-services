@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RB Digital & Tech Services - Votre partenaire en solutions digitales et technologiques. Services informatiques, design, création web et plus.">
+    <meta name="keywords" content="services digitaux, Canva Pro, licences Windows, Microsoft Office, antivirus, formations, maintenance informatique, design graphique, création site web, Burkina Faso">
+    <meta name="author" content="RB Digital & Tech Services">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rbdigitaltechservices.com/">
+    <title>RB Digital & Tech Services | Solutions Digitales & Technologiques</title>
+    <!-- Favicon (généré via emoji SVG) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    <!-- Styles globaux -->
+    <link rel="stylesheet" href="assets/css/global-style.css">
+    <!-- Styles page d'accueil -->
+    <link rel="stylesheet" href="assets/css/homepage-style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER / NAVIGATION PRINCIPALE ==================== -->
+    <header class="main-navigation-header" id="main-header">
+        <div class="header-container">
+            <!-- Logo -->
+            <a href="index.html" class="header-logo-link" aria-label="Accueil RB Digital & Tech Services">
+                <div class="header-logo-wrapper">
+                    <span class="header-logo-icon">⚡</span>
+                    <div class="header-logo-text">
+                        <span class="header-logo-name">RB Digital</span>
+                        <span class="header-logo-subtitle">& Tech Services</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Menu desktop -->
+            <nav class="header-desktop-nav" aria-label="Navigation principale">
+                <ul class="header-nav-list">
+                    <li><a href="index.html" class="nav-link active-link">Accueil</a></li>
+                    <li class="nav-dropdown">
+                        <a href="#services-section" class="nav-link">Services <span class="dropdown-arrow">▾</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services/canva-pro.html">Canva Pro</a></li>
+                            <li><a href="services/windows-licence.html">Licences Windows</a></li>
+                            <li><a href="services/office-licence.html">Microsoft Office</a></li>
+                            <li><a href="services/antivirus.html">Antivirus</a></li>
+                            <li><a href="services/formations-ebook.html">Formations & E-books</a></li>
+                            <li><a href="services/maintenance-informatique.html">Maintenance Info</a></li>
+                            <li><a href="services/design-graphique.html">Design Graphique</a></li>
+                            <li><a href="services/creation-site-web.html">Création Site Web</a></li>
+                            <li><a href="services/publicite-reseaux.html">Publicité Réseaux</a></li>
+                            <li><a href="services/boutique-digitale.html">Boutique Digitale</a></li>
+                            <li><a href="services/carte-virtuelle.html">Carte Virtuelle</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about-section" class="nav-link">À propos</a></li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Bouton WhatsApp header -->
+            <a href="https://wa.me/22605006789?text=Bonjour%20RB%20Digital%20%26%20Tech%20Services%2C%20je%20souhaite%20avoir%20plus%20d'informations%20sur%20vos%20services." 
+               class="whatsapp-header-button" target="_blank" rel="noopener noreferrer" aria-label="Contact WhatsApp">
+                <span class="whatsapp-icon">💬</span>
+                <span class="whatsapp-text">WhatsApp</span>
+            </a>
+
+            <!-- Bouton hamburger mobile -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menu mobile" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+
+        <!-- Menu mobile (caché par défaut) -->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+            <div class="mobile-menu-panel">
+                <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Fermer le menu">✕</button>
+                <nav class="mobile-nav">
+                    <ul class="mobile-nav-list">
+                        <li><a href="index.html" class="mobile-nav-link">🏠 Accueil</a></li>
+                        <li><a href="services/canva-pro.html" class="mobile-nav-link">🎨 Canva Pro</a></li>
+                        <li><a href="services/windows-licence.html" class="mobile-nav-link">🪟 Licences Windows</a></li>
+                        <li><a href="services/office-licence.html" class="mobile-nav-link">📊 Microsoft Office</a></li>
+                        <li><a href="services/antivirus.html" class="mobile-nav-link">🛡️ Antivirus</a></li>
+                        <li><a href="services/formations-ebook.html" class="mobile-nav-link">📚 Formations & E-books</a></li>
+                        <li><a href="services/maintenance-informatique.html" class="mobile-nav-link">🔧 Maintenance Info</a></li>
+                        <li><a href="services/design-graphique.html" class="mobile-nav-link">🎯 Design Graphique</a></li>
+                        <li><a href="services/creation-site-web.html" class="mobile-nav-link">🌐 Création Site Web</a></li>
+                        <li><a href="services/publicite-reseaux.html" class="mobile-nav-link">📢 Publicité Réseaux</a></li>
+                        <li><a href="services/boutique-digitale.html" class="mobile-nav-link">🛒 Boutique Digitale</a></li>
+                        <li><a href="services/carte-virtuelle.html" class="mobile-nav-link">💳 Carte Virtuelle</a></li>
+                    </ul>
+                </nav>
+                <a href="https://wa.me/22605006789?text=Bonjour%20RB%20Digital%20%26%20Tech%20Services" 
+                   class="mobile-whatsapp-button" target="_blank" rel="noopener noreferrer">
+                    💬 Contact WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN ==================== -->
+    <main>
+
+        <!-- ===== SECTION HERO ===== -->
+        <section class="main-hero-section" id="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">⚡ Solutions Digitales Professionnelles</span>
+                    <h1 class="hero-main-title">
+                        RB Digital <span class="hero-highlight">& Tech Services</span>
+                    </h1>
+                    <p class="hero-slogan">Votre partenaire en solutions digitales et technologiques</p>
+                    <p class="hero-description">
+                        Nous vous accompagnons dans votre transformation digitale avec des services 
+                        de qualité : licences logicielles, design graphique, création de sites web, 
+                        formations et bien plus encore. Des solutions accessibles, rapides et professionnelles.
+                    </p>
+                    <div class="hero-buttons-group">
+                        <a href="#services-section" class="hero-primary-button">
+                            <span>📋</span> Voir les services
+                        </a>
+                        <a href="https://wa.me/22605006789?text=Bonjour%20RB%20Digital%20%26%20Tech%20Services%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20vos%20services." 
+                           class="hero-whatsapp-button" target="_blank" rel="noopener noreferrer">
+                            <span>💬</span> Contact WhatsApp
+                        </a>
+                    </div>
+                    <!-- Indicateurs de confiance -->
+                    <div class="hero-trust-indicators">
+                        <div class="trust-item">
+                            <span class="trust-icon">✅</span>
+                            <span>Service professionnel</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-icon">⚡</span>
+                            <span>Livraison rapide</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-icon">🎯</span>
+                            <span>Satisfaction garantie</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-container">
+                        <!-- Image d'illustration professionnelle (SVG intégré) -->
+                        <svg class="hero-illustration" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="80" y="60" width="340" height="260" rx="20" fill="#1a1f3a" stroke="#1e3a6e" stroke-width="3"/>
+                            <circle cx="180" cy="150" r="50" fill="#f47920" opacity="0.9"/>
+                            <circle cx="320" cy="150" r="50" fill="#1e3a6e" opacity="0.9"/>
+                            <rect x="150" y="240" width="200" height="8" rx="4" fill="#f47920" opacity="0.6"/>
+                            <rect x="180" y="260" width="140" height="6" rx="3" fill="#ffffff" opacity="0.3"/>
+                            <rect x="200" y="275" width="100" height="6" rx="3" fill="#ffffff" opacity="0.2"/>
+                            <!-- Décor tech -->
+                            <line x1="60" y1="100" x2="100" y2="100" stroke="#f47920" stroke-width="2" opacity="0.5"/>
+                            <line x1="400" y1="280" x2="440" y2="280" stroke="#1e3a6e" stroke-width="2" opacity="0.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- Vague décorative -->
+            <div class="hero-wave-divider">
+                <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,100 L0,100 Z" fill="#ffffff"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- ===== SECTION SERVICES ===== -->
+        <section class="services-section" id="services-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Nos Services</span>
+                    <h2 class="section-title">Des solutions <span class="highlight-text">complètes</span> pour vous</h2>
+                    <p class="section-subtitle">Découvrez notre gamme de services digitaux et technologiques conçus pour répondre à tous vos besoins.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Carte 1 : Canva Pro -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #00C4CC, #8B3DFF);">
+                                <span class="service-card-emoji">🎨</span>
+                            </div>
+                            <span class="service-card-badge">Populaire</span>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Canva Pro</h3>
+                            <p class="service-card-description">Accédez à Canva Pro Personnel et Éducation à prix réduit. Des millions de ressources premium pour vos designs.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>2 500 FCFA</strong></span>
+                                <a href="services/canva-pro.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 2 : Licences Windows -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #0078D4, #005A9E);">
+                                <span class="service-card-emoji">🪟</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Licences Windows</h3>
+                            <p class="service-card-description">Licences Windows 7, 10 et 11 authentiques à prix abordables. Activation rapide et garantie.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>3 000 FCFA</strong></span>
+                                <a href="services/windows-licence.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 3 : Microsoft Office -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #D83B01, #C43E00);">
+                                <span class="service-card-emoji">📊</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Microsoft Office</h3>
+                            <p class="service-card-description">Office 2016, 2019, 2021 et 2024. Word, Excel, PowerPoint et plus pour votre productivité.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>4 000 FCFA</strong></span>
+                                <a href="services/office-licence.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 4 : Antivirus -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #1A7A3A, #0F5C28);">
+                                <span class="service-card-emoji">🛡️</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Antivirus</h3>
+                            <p class="service-card-description">Protection complète avec Kaspersky et autres antivirus. Sécurité optimale pour vos appareils.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>1 500 FCFA</strong></span>
+                                <a href="services/antivirus.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 5 : Formations & E-books -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #6C3483, #4A235A);">
+                                <span class="service-card-emoji">📚</span>
+                            </div>
+                            <span class="service-card-badge">Nouveau</span>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Formations & E-books</h3>
+                            <p class="service-card-description">IA, Marketing Digital, E-commerce, Dropshipping. Formations complètes pour booster vos compétences.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>1 000 FCFA</strong></span>
+                                <a href="services/formations-ebook.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 6 : Maintenance informatique -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #2C3E50, #1A252F);">
+                                <span class="service-card-emoji">🔧</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Maintenance Informatique</h3>
+                            <p class="service-card-description">Installation, activation, dépannage et réparation. Service complet pour vos ordinateurs.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>2 000 FCFA</strong></span>
+                                <a href="services/maintenance-informatique.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 7 : Design Graphique -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #E74C3C, #C0392B);">
+                                <span class="service-card-emoji">🎯</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Design Graphique</h3>
+                            <p class="service-card-description">Logos, flyers, affiches, cartes de visite. Des créations professionnelles qui vous démarquent.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>2 000 FCFA</strong></span>
+                                <a href="services/design-graphique.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 8 : Création Site Web -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #2980B9, #1A5276);">
+                                <span class="service-card-emoji">🌐</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Création de Site Web</h3>
+                            <p class="service-card-description">Sites vitrines, e-commerce, portfolios. Des sites modernes, rapides et responsive.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>25 000 FCFA</strong></span>
+                                <a href="services/creation-site-web.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 9 : Publicité Réseaux -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #8E44AD, #6C3483);">
+                                <span class="service-card-emoji">📢</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Publicité Réseaux Sociaux</h3>
+                            <p class="service-card-description">Boostez votre visibilité sur Facebook, Instagram, TikTok. Stratégies ciblées et efficaces.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>5 000 FCFA</strong></span>
+                                <a href="services/publicite-reseaux.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 10 : Boutique Digitale -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #F39C12, #D68910);">
+                                <span class="service-card-emoji">🛒</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Boutique Digitale</h3>
+                            <p class="service-card-description">Créez votre boutique en ligne. Vendez vos produits digitaux facilement et en toute sécurité.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>15 000 FCFA</strong></span>
+                                <a href="services/boutique-digitale.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carte 11 : Carte Virtuelle -->
+                    <article class="service-product-card">
+                        <div class="service-card-image-wrapper">
+                            <div class="service-card-image" style="background: linear-gradient(135deg, #1ABC9C, #148F77);">
+                                <span class="service-card-emoji">💳</span>
+                            </div>
+                        </div>
+                        <div class="service-card-content">
+                            <h3 class="service-card-title">Carte Virtuelle</h3>
+                            <p class="service-card-description">Cartes de visite numériques modernes. Partagez vos coordonnées en un clic.</p>
+                            <div class="service-card-footer">
+                                <span class="service-price-tag">À partir de <strong>3 000 FCFA</strong></span>
+                                <a href="services/carte-virtuelle.html" class="service-detail-button">Voir détails →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION À PROPOS ===== -->
+        <section class="about-section" id="about-section">
+            <div class="section-container">
+                <div class="about-grid">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder">
+                            <span class="about-large-emoji">⚡</span>
+                            <span class="about-image-label">RB Digital & Tech Services</span>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <span class="section-badge">À propos</span>
+                        <h2 class="section-title">Qui sommes-<span class="highlight-text">nous</span> ?</h2>
+                        <p class="about-text">
+                            <strong>RB Digital & Tech Services</strong> est une entreprise spécialisée dans les solutions 
+                            digitales et technologiques. Nous mettons notre expertise au service des particuliers, 
+                            entrepreneurs et entreprises pour les accompagner dans leur transformation numérique.
+                        </p>
+                        <p class="about-text">
+                            Notre mission : rendre les outils digitaux accessibles à tous, avec des services 
+                            de qualité, des prix abordables et un support client réactif.
+                        </p>
+                        <div class="about-stats">
+                            <div class="about-stat-item">
+                                <span class="stat-number">+500</span>
+                                <span class="stat-label">Clients satisfaits</span>
+                            </div>
+                            <div class="about-stat-item">
+                                <span class="stat-number">+1000</span>
+                                <span class="stat-label">Services livrés</span>
+                            </div>
+                            <div class="about-stat-item">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-label">Support client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION POURQUOI NOUS CHOISIR ===== -->
+        <section class="why-us-section" id="why-us-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">Pourquoi nous choisir</span>
+                    <h2 class="section-title">Ce qui fait notre <span class="highlight-text">différence</span></h2>
+                </div>
+                <div class="why-us-grid">
+                    <div class="why-us-card">
+                        <span class="why-us-icon">🎯</span>
+                        <h3 class="why-us-title">Expertise</h3>
+                        <p class="why-us-description">Une équipe qualifiée avec une solide expérience dans le domaine digital et technologique.</p>
+                    </div>
+                    <div class="why-us-card">
+                        <span class="why-us-icon">⚡</span>
+                        <h3 class="why-us-title">Rapidité</h3>
+                        <p class="why-us-description">Des délais de livraison courts. La plupart de nos services sont livrés en moins de 24h.</p>
+                    </div>
+                    <div class="why-us-card">
+                        <span class="why-us-icon">🏆</span>
+                        <h3 class="why-us-title">Professionnalisme</h3>
+                        <p class="why-us-description">Un travail soigné, des produits de qualité et un accompagnement personnalisé.</p>
+                    </div>
+                    <div class="why-us-card">
+                        <span class="why-us-icon">🔧</span>
+                        <h3 class="why-us-title">Assistance</h3>
+                        <p class="why-us-description">Un support technique réactif pour vous aider en cas de problème avec nos services.</p>
+                    </div>
+                    <div class="why-us-card">
+                        <span class="why-us-icon">💬</span>
+                        <h3 class="why-us-title">Support Client</h3>
+                        <p class="why-us-description">Une équipe à votre écoute par WhatsApp, email et téléphone pour répondre à toutes vos questions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SECTION CONTACT RAPIDE ===== -->
+        <section class="quick-contact-section" id="contact-section">
+            <div class="section-container">
+                <div class="contact-cta-card">
+                    <div class="contact-cta-content">
+                        <span class="section-badge section-badge-light">Contact</span>
+                        <h2 class="contact-cta-title">Prêt à démarrer votre <span class="highlight-text">projet</span> ?</h2>
+                        <p class="contact-cta-text">Contactez-nous dès maintenant pour discuter de vos besoins. Nous vous répondrons dans les plus brefs délais.</p>
+                        <div class="contact-cta-buttons">
+                            <a href="https://wa.me/22605006789?text=Bonjour%20RB%20Digital%20%26%20Tech%20Services%2C%20je%20souhaite%20discuter%20d'un%20projet." 
+                               class="contact-whatsapp-button" target="_blank" rel="noopener noreferrer">
+                                <span>💬</span> WhatsApp : +226 05 00 67 89
+                            </a>
+                            <a href="mailto:bancerobert6@gmail.com" class="contact-email-button">
+                                <span>📧</span> bancerobert6@gmail.com
+                            </a>
+                            <a href="tel:+22667123596" class="contact-phone-button">
+                                <span>📞</span> +226 67 12 35 96
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Colonne 1 : Entreprise -->
+                <div class="footer-column">
+                    <div class="footer-logo-wrapper">
+                        <span class="footer-logo-icon">⚡</span>
+                        <span class="footer-logo-name">RB Digital & Tech Services</span>
+                    </div>
+                    <p class="footer-description">
+                        Votre partenaire de confiance pour toutes vos solutions digitales et technologiques au Burkina Faso.
+                    </p>
+                </div>
+
+                <!-- Colonne 2 : Liens rapides -->
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Liens rapides</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#services-section">Services</a></li>
+                        <li><a href="#about-section">À propos</a></li>
+                        <li><a href="#contact-section">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 3 : Services -->
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Services</h3>
+                    <ul class="footer-links-list">
+                        <li><a href="services/canva-pro.html">Canva Pro</a></li>
+                        <li><a href="services/windows-licence.html">Licences Windows</a></li>
+                        <li><a href="services/office-licence.html">Microsoft Office</a></li>
+                        <li><a href="services/creation-site-web.html">Création Site Web</a></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne 4 : Réseaux sociaux -->
+                <div class="footer-column">
+                    <h3 class="footer-column-title">Suivez-nous</h3>
+                    <div class="footer-social-media-links">
+                        <a href="https://wa.me/22605006789" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <span>💬</span> WhatsApp
+                        </a>
+                        <a href="https://facebook.com/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <span>📘</span> Facebook
+                        </a>
+                        <a href="mailto:bancerobert6@gmail.com" class="social-link" aria-label="Email">
+                            <span>📧</span> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Barre copyright -->
+            <div class="footer-copyright">
+                <p>&copy; 2026 <strong>RB Digital & Tech Services</strong>. Tous droits réservés. Développé avec ❤️ au Burkina Faso.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="assets/js/main-navigation.js"></script>
+    <script src="assets/js/whatsapp-buttons.js"></script>
+    <script src="assets/js/animations-effects.js"></script>
+</body>
+</html>
