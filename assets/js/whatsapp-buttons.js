@@ -63,6 +63,6 @@
         defaultNumber: WHATSAPP_NUMBER
     };
 
-    console.log('✅ WhatsApp buttons initialisés pour', BUSINESS_NAME);
+    console.log('WhatsApp buttons initialisés pour', BUSINESS_NAME);
 
 })();

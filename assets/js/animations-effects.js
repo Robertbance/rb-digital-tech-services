@@ -120,6 +120,6 @@
         });
     });
 
-    console.log('✅ Animations et effets initialisés');
+    console.log('Animations et effets initialisés');
 
 })();

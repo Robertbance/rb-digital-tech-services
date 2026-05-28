@@ -181,11 +181,60 @@ button {
     gap: 24px;
 }
 
+/* Reserve space for fixed header so page content doesn't jump under it */
+main {
+    padding-top: calc(var(--header-height) + 12px);
+}
+
 /* Logo */
 .header-logo-link {
     display: flex;
     align-items: center;
     flex-shrink: 0;
+}
+
+/* Image logo adjustments to prevent overflow */
+.header-logo-img {
+    display: block;
+    width: auto;
+    max-height: calc(var(--header-height) - 16px);
+    object-fit: contain;
+}
+
+.footer-logo-img {
+    display: block;
+    width: auto;
+    max-height: 56px;
+    object-fit: contain;
+}
+
+/* Add breathing space around logo and ensure it scales on small screens */
+.header-logo-link {
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+/* Limit logo width so it doesn't push other header items */
+.header-logo-img {
+    max-width: 220px;
+    background: transparent;
+}
+
+@media (max-width: 1024px) {
+    .header-logo-img {
+        max-width: 180px;
+        max-height: calc(var(--header-height) - 12px);
+    }
+}
+
+@media (max-width: 768px) {
+    .header-logo-img {
+        max-width: 140px;
+        max-height: calc(var(--header-height) - 8px);
+    }
+    .header-logo-link {
+        padding: 4px 6px;
+    }
 }
 
 .header-logo-wrapper {

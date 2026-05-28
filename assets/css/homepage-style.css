@@ -8,7 +8,7 @@
     position: relative;
     background: linear-gradient(160deg, #0A0F24 0%, #1A1F3A 40%, #0F1535 100%);
     color: var(--color-white);
-    padding: 140px 0 80px;
+    padding: 100px 0 80px;
     overflow: hidden;
 }
 
@@ -18,7 +18,7 @@
     padding: 0 24px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 48px;
     align-items: center;
 }
 
@@ -136,7 +136,7 @@
 
 .hero-image-container {
     width: 100%;
-    max-width: 450px;
+    max-width: 420px;
 }
 
 .hero-illustration {
